@@ -5,9 +5,8 @@
 #include "../src/include/ParticleForceRegistry.h"
 
 int main() {
-    Particle a, b;
+    Particle a;
     ParticleForceRegistry registry;
 
-    ParticleSpring ps(&b, 1.0f, 2.0f);
-    registry.add(&a, &ps);
+    
 }
